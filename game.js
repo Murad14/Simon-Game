@@ -8,7 +8,16 @@ function nextSequence() {
     gamePattern.push(randomChosenColour);
     $("#" + randomChosenColour).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 
-    var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
-    audio.play();
+    // var audio = new Audio("sounds/"+ randomChosenColour + ".mp3");
+    // audio.play();
+    // autoplay="true"
+    // muted="muted"
+    $("#" + randomChosenColour).click(function () {
+
+        var audio = new Audio('sounds/' + randomChosenColour + '.mp3');
+
+        audio.play();
+
+    });
 }
 nextSequence();
