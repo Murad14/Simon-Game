@@ -12,6 +12,8 @@ $(".btn").click(function () {
 
     playSound(userChosenColour);
     animatePress(userChosenColour);
+
+    checkAnswer(userClickedPattern.length-1);
 });
 
 
@@ -57,6 +59,12 @@ $(document).keydown(function(){
     }
 
 });
+
+function checkAnswer(currentLevel){
+
+    
+    
+}
 
 
 
