@@ -57,7 +57,7 @@ $(document).keydown(function () {
 
         $("#level-title").text("Level " + level);
         nextSequence();
-        // started = true;
+        started = true;
 
     }
 
@@ -95,7 +95,7 @@ function checkAnswer(currentLevel) {
 function startOver(){
     level = 0;
     gamePattern = [];
-    // started = false;
+    started = false;
 }
 
 
