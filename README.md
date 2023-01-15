@@ -4,7 +4,7 @@
 
 ### <b> Gameplay </b>
 
-<p>The device features four buttons with different colors, each of which generates a unique sound when pressed. The game involves reproducing a random sequence of button presses, with the number of buttons and level increasing as the player advances through the game. The device lights up the buttons in the sequence to be reproduced.</p>
+<p>The game features with four buttons with different colors, each of which generates a unique sound when pressed. The game involves reproducing a random sequence of button presses, with the number of buttons and level increasing as the player advances through the game. The device lights up the buttons in the sequence to be reproduced.</p>
 
 ### <b> Demo </b>
 <br>
